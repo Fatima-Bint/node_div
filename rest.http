@@ -1,0 +1,11 @@
+###
+POST http://localhost:5151/api/auth
+Content-Type: application/json
+
+{
+    "password" : "Isaac",
+    "email" : "yeboah@mail.com"
+}
+
+###
+GET http://localhost:5151/api/
